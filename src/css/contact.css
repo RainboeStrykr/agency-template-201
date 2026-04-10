@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .contactPage h1 {
+    @apply xl:text-[64px] text-[32px] max-md:text-2xl bg-clip-text text-transparent  bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF];
+  }
+  h2 {
+    @apply xl:text-[48px] text-[32px] leading-[100%] bg-clip-text text-transparent bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF];
+  }
+
+  h3 {
+    @apply md:text-[24px] text-white;
+  }
+  p {
+    @apply text-base text-[#B3B3B3];
+  }
+}
+@layer components {
+  .button-check-form {
+    @apply w-full text-center;
+  }
+}
+
+.radio-items-wrap label {
+  @apply w-full;
+}
+
+.contact-items li {
+  @apply flex flex-row text-[#B3B3B3] gap-[10px];
+}
+
+.contact-items li img,
+label {
+  @apply text-white font-helvetica;
+}
+
+.input-wrap {
+  @apply flex flex-col gap-3;
+}
+
+input {
+  @apply bg-transparent border-b border-[#5E5E5E] py-[6px] font-helvetica text-white;
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bantu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body class="bg-black">
+    <!-- Header Navigation -->
+    <header>
+      <nav id="header" class="w-full fixed top-0 bg-transparent z-[9999]">
+        <div class="container mx-auto">
+          <ul
+            class="flex items-center justify-between h-[60px] md:h-[68px] lg::h-[79px]"
+          >
+            <li class="flex items-center gap-[6px] relative z-50">
+              <figure>
+                <a href="/#" class="flex flex-row gap-2 items-center">
+                  <img
+                    src="/logo.svg"
+                    alt="logo"
+                    class="w-[28px] md:w-[31px]"
+                  />
+                  <p
+                    href=""
+                    class="sm:text-sm md:text-base text-white font-bold"
+                  >
+                    Bantu
+                  </p>
+                </a>
+              </figure>
+            </li>
+            <li class="nav-style hidden md:flex ml-[80px] gap-6">
+              <a
+                href="about"
+                class="text-base text-white font-medium"
+                data-text="Testimoni"
+                >About</a
+              >
+              <a
+                href="#services"
+                class="text-base text-white font-medium"
+                data-text="Service"
+                >Service</a
+              >
+              <a
+                href="#portofolio"
+                class="text-base text-white font-medium"
+                data-text="Portfolio"
+                >Portfolio</a
+              >
+              <a
+                href="/contact"
+                class="text-base text-white font-medium"
+                data-text="Contact Us"
+                >Contact Us</a
+              >
+            </li>
+
+            <div class="relative md:hidden">
+              <!-- Hamburger Menu start -->
+              <div
+                id="menuToggle"
+                class="pt-3 z-[99999]"
+                onclick="toggleDropdown()"
+              >
+                <input type="checkbox" id="menuCheckbox" />
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+              </div>
+              <!-- Hamburger Menu end -->
+
+              <!-- Dropdown Mobile start-->
+              <div
+                id="dropdownMenu"
+                class="absolute right-[-16px] -top-4 pt-20 bg-black h-[120vh] w-screen text-white rounded-md shadow-lg transition-transform duration-300 -translate-x-full"
+              >
+                <a
+                  href="about"
+                  class="block px-5 sm:px-7 py-4 text-sm hover:bg-gray-800"
+                  >About</a
+                >
+                <a
+                  href="#services"
+                  class="block px-5 sm:px-7 py-4 text-sm hover:bg-gray-800"
+                  >Service</a
+                >
+                <a
+                  href="#portofolio"
+                  class="block px-5 sm:px-7 py-4 text-sm hover:bg-gray-800"
+                  >Portfolio</a
+                >
+
+                <a
+                  href="contact"
+                  class="block px-5 sm:px-7 py-4 text-sm hover:bg-gray-800"
+                  >Contact Us</a
+                >
+              </div>
+              <!-- Dropdown Mobile start-->
+            </div>
+
+            <li class="hidden md:block">
+              <button class="btn-primary">
+                <p class="text-base text-white font-medium">Get Started</p>
+                <figure>
+                  <img
+                    src="/Vector.svg"
+                    alt="arrow"
+                    class="border border-white p-[3px] rounded-full"
+                  />
+                </figure>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Navigation -->
+
+    <!-- Main Content Start -->
+    <main id="site-main">
+      <!-- Hero Section Start -->
+      <section
+        class="flex relative overflow-hidden w-full justify-center bg-gradient-to-b from-black via-transparent to-black"
+      >
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block border-r border-[#504DFF]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] border-r border-[#504DFF]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block border-r border-[#504DFF]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block border-r border-[#504DFF]"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+        <div
+          class="bg-gradient-to-r h-[868px] default:h-screen from-[#FFFFFF00] to-white/10 w-[64px] hidden md:block"
+        ></div>
+
+        <div
+          class="absolute w-[550px] h-[287px] bg-[#504CFF] blur-[120px] bottom-[-20%] md:bottom-[-10%] left-[-197px] md:left-[5%]"
+        ></div>
+        <div
+          class="absolute w-[427px] h-[190px] md:w-[450px] md:h-[287px] bg-[#854CFF] blur-[100px] right-[-40%] md:right-[5%] top-[100px] md:top-[20%]"
+        ></div>
+
+        <div
+          class="container mx-auto absolute top-[168px] md:top-[139px] flex items-center justify-center"
+        >
+          <div class="text-center">
+            <figure
+              class="flex gap-4 items-center justify-center pb-[30px] lg:pb-10 hover-underline"
+            >
+              <button class="hover:scale-110 transition-all duration-300">
+                <img
+                  src="/instagram2.svg"
+                  class="w-[30px] h-[30px] md:w-6 md:h-6"
+                  alt="instagram"
+                  data-aos-duration="500"
+                  data-aos="fade-up"
+                  data-aos-delay="900"
+                />
+              </button>
+              <button class="hover:scale-110 transition-all duration-300">
+                <img
+                  src="/wa.svg"
+                  class="w-[30px] h-[30px] md:w-6 md:h-6"
+                  alt="wa"
+                  data-aos-duration="500"
+                  data-aos="fade-up"
+                  data-aos-delay="700"
+                />
+              </button>
+              <button class="hover:scale-110 transition-all duration-300">
+                <img
+                  src="/linkedin.svg"
+                  class="w-[30px] h-[30px] md:w-6 md:h-6"
+                  alt="linkedin"
+                  data-aos-duration="500"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                />
+              </button>
+              <button class="hover:scale-110 transition-all duration-300">
+                <img
+                  src="/twiter.svg"
+                  class="w-[30px] h-[30px] md:w-6 md:h-6"
+                  alt="twiter"
+                  data-aos-duration="500"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                />
+              </button>
+            </figure>
+
+            <div>
+              <h1
+                class="text-[42px] md:text-[70px] lg:text-[80px] xlA:text-[105px] font-normal leading-[56px] sm:leading-[60px] md:leading-[70px] lg:leading-[110px] text-transparent pb-[30px] md:pb-[32px] bg-clip-text bg-gradient-to-r from-[#9795FF] via-white to-[#BE9FFF]"
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                Amazing website creation with Bantu agency
+              </h1>
+              <p
+                class="text-[14px] lg:text-[16px] leading-[21.6px] font-light text-white"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+              >
+                Help you to build a website company that is modern,
+                user-friendly, SEO-optimized, and cleanly designed.
+              </p>
+              <div class="flex items-center justify-center mt-[40px] md:mt-8">
+                <button class="btn-secondary group transition duration-300">
+                  Get Started
+                  <figure
+                    class="text-2xl group-hover:rotate-45 group-hover:translate-x-1 transition duration-100 ease-in-out"
+                  >
+                    <i
+                      class="bx bx-right-top-arrow-circle relative top-[2px]"
+                    ></i>
+                  </figure>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex justify-center items-center pt-[50px] md:pt-[40px]"
+            >
+              <div class="circle">
+                <div class="logo"></div>
+                <div class="text">
+                  <p class="text-white text-[13px] lg:text-base">
+                    scroll down for work together
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- line 1 start -->
+      <section class="relative all-line">
+        <img
+          class="absolute bottom-custom -z-50 lg:top-44 left-1/2 transform sm:w-[96vw] -translate-x-1/2 md:w-[96vw] lg:w-[96vw] max-w-[1281px] object-contain"
+          src="/vector-line.svg"
+          alt=""
+        />
+      </section>
+      <!-- line 1 end -->
+
+      <!-- section invitation to collaborate start -->
+      <section
+        id="services"
+        class="pt-[75px] md:pt-[120px] relative overflow-hidden"
+      >
+        <div
+          class="absolute top-[550px] lg:top-[367px] w-[621px] lg:w-[641px] h-[278px] lg:h-[287px] bg-[#504CFF] blur-[200px] left-[-422px] lg:left-[-387px] z-[-1]"
+        ></div>
+        <div
+          class="absolute bottom-0 lg:bottom-[250px] w-[508px] lg:w-[641px] h-[227px] lg:h-[250px] bg-[#504CFF] blur-[200px] left-[-172px] lg:left-[-300px] z-[-1]"
+        ></div>
+        <div
+          class="absolute top-[1820px] lg:top-[911px] w-[806px] lg:w-[641px] h-[361px] lg:h-[287px] bg-[#854CFF99] blur-[200px] right-[-650px] lg:right-[-200px] z-[1] lg:z-[-1]"
+        ></div>
+        <div class="container pb-40 md:pb-0 mx-auto relative">
+          <div
+            class="flex relative flex-row mx-auto justify-center default:justify-start"
+          >
+            <h2
+              class="hidden sm:flex text-[32px] md:text-[48px] lg:text-[67px] w-full xl:max-w-full font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF]"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              Companies that can help you in
+            </h2>
+            <button class="btn-secondary2">
+              Know More
+              <figure class="text-2xl">
+                <i class="bx bx-right-top-arrow-circle"></i>
+              </figure>
+            </button>
+          </div>
+          <h2
+            class="text-[32px] md:text-[48px] lg:text-[67px] width-h2 font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF]"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <span class="sm:hidden">Companies that can help you in</span
+            >developing your company for the future
+          </h2>
+          <p
+            class="text-base text-white font-normal md:w-[486px] pt-[30px] md:pt-8"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
+            Work in the IT field includes Web Design, UI/UX Design, Branding and
+            Shopify Development
+          </p>
+          <div class="relative flex justify-end w-full lg:w-auto"></div>
+        </div>
+
+        <div
+          class="container mx-auto w-full lg:flex lg:items-end lg:justify-between pt-0 pb-[40px] md:pb-20 lg:pt-[60px] lg:pb-[40px]"
+        >
+          <div class="lg:w-[691px]">
+            <h2
+              class="text-[32px] md:text-[48px] md:py-4 lg:text-[68px] font-normal leading-[47px] lg:leading-[75px] text-transparent bg-clip-text bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF]"
+              data-aos="fade-left"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+            >
+              Let’s work together with our us
+            </h2>
+            <p
+              class="text-base text-white font-normal lg:w-[486px] pt-[25px]"
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              help you to build website company that is modern, user friendly,
+              good CEO, and Clean design
+            </p>
+          </div>
+          <div class="hidden pt-[20px]">
+            <button class="btn-secondary started">
+              Get Started
+              <figure class="rounded-full border border-black">
+                <img src="/arrow-up-right.svg" alt="arrow" />
+              </figure>
+            </button>
+          </div>
+        </div>
+
+        <!-- card invitation -->
+        <div
+          class="flex flex-col gap-6 w-full max-w-[1440px] pb-16 mx-auto justify-center"
+        >
+          <!-- card baris 1 start -->
+          <div
+            class="flex flex-col md:pt-7 lg:pt-0 sm:flex-col sm:justify-center md:flex-row gap-6 px-5 md:px-8 sm:mx-auto"
+          >
+            <!-- card website dev start -->
+            <div
+              class="w-full pb-10 md:max-w-[460px] lg:max-w-[690px] h-full lg:max-h-[346px] bg-[#504CFF] rounded-[30px] sm:rounded-[24px] flex flex-col sm:flex-row md:flex-row gap-4"
+            >
+              <div
+                class="flex flex-col gap-[23px] pt-10 pl-4 md:pl-[14px] lg:pl-[31px] text-white"
+              >
+                <div>
+                  <img src="/card1.svg" alt="" />
+                </div>
+                <div class="flex flex-col gap-4">
+                  <h2 class="font-medium text-[31px]">Website Dev</h2>
+                  <p class="font-normal text-[16px] leading-7">
+                    help you to build website company that is modern, user
+                    friendly, good CEO, and Clean design
+                  </p>
+                  <div class="flex flex-row gap-2 underline underline-offset-4">
+                    <p>Start with us</p>
+                    <img src="/Vector.svg" alt="" class="text-white" />
+                  </div>
+                </div>
+              </div>
+              <img
+                src="/assets/laptop1.png"
+                alt=""
+                class="relative w-full max-w-[495px] sm:lg:max-w-[455px] sm:h-[333px] top-[40px] pl-5 sm:px-0 sm:top-[39px] rounded-tr-[10px] overflow-hidden self-end"
+              />
+            </div>
+            <!-- card website dev end -->
+
+            <!-- card UI/UX start -->
+            <div
+              class="w-full sm:justify-start sm:pb-10 md:max-w-[460px] lg:max-w-[486px] h-full lg:max-h-[346px] bg-[rgb(21,21,21)] bg-opacity-50 overflow-hidden rounded-[30px] sm:rounded-[24px] flex flex-col sm:flex-row gap-4"
+            >
+              <div
+                class="flex flex-col gap-[24px] pl-4 pt-10 md:pl-[14px] lg:pl-[31px] text-white"
+              >
+                <div>
+                  <img src="/card2.svg" alt="" />
+                </div>
+                <div class="flex flex-col w-full max-w-[952px] gap-4">
+                  <h2 class="font-medium text-[31px]">UI/UX Design</h2>
+                  <p class="font-normal text-[16px] leading-7">
+                    help you to build website company that is modern, user
+                    friendly, good CEO, and Clean design
+                  </p>
+                  <div class="flex flex-row gap-2 underline underline-offset-4">
+                    <p>Start with us</p>
+                    <img src="/Vector.svg" alt="" class="text-white" />
+                  </div>
+                </div>
+              </div>
+              <img
+                src="/assets/mobile1.png"
+                alt=""
+                class="hidden sm:flex relative w-full sm:lg:max-w-[455px] sm:h-[333px] top-[387px] sm:top-[49px] sm:rounded-br-[24px] overflow-hidden sm:self-end"
+              />
+              <!-- mobile -->
+              <img
+                src="/assets/mobile2.png"
+                alt=""
+                class="sm:hidden w-[284px] self-center px-5"
+              />
+              <!-- mobile -->
+            </div>
+            <!-- card UI/UX end -->
+          </div>
+          <!-- card baris 1 end -->
+
+          <!-- card baris 2 start -->
+          <div
+            class="flex gap-6 w-full max-w-[1440px] flex-col-reverse md:flex-row mx-auto justify-center px-5 md:px-8"
+          >
+            <!-- card Branding start -->
+            <div
+              class="w-full relative md:max-w-[460px] lg:max-w-[486px] h-full lg:max-h-[346px] bg-[rgb(21,21,21)] bg-opacity-50 overflow-hidden rounded-[30px] sm:rounded-[24px] flex flex-col sm:flex-row"
+            >
+              <div
+                class="flex flex-col gap-[24px] pl-4 pt-10 md:pl-[14px] lg:pl-[31px] text-white"
+              >
+                <div>
+                  <img src="/card3.svg" alt="" />
+                </div>
+                <div
+                  class="flex brand-teks sm:pb-10 flex-col w-full sm:max-w-[252px] md:max-w-[180px] lg:max-w-[252px] gap-4"
+                >
+                  <h2 class="font-medium text-[31px]">Branding</h2>
+                  <p class="branding-p font-normal text-[16px] leading-7">
+                    help you to build website company that is modern, user
+                    friendly, good CEO, and Clean design
+                  </p>
+                  <div class="flex flex-row gap-2 underline underline-offset-4">
+                    <p>Start with us</p>
+                    <img src="/Vector.svg" alt="" class="text-white" />
+                  </div>
+                </div>
+              </div>
+              <img
+                src="img-brand-cropped.svg"
+                alt=""
+                class="hidden sm:flex absolute w-[60%] max-w-full left-[330px] sm:top-[50px] md:left-[200px] lg:left-[250px] md:top-[80px] bottom-0 lg:top-[29px] rounded-br-[24px] overflow-hidden self-end"
+              />
+              <img src="/assets/kartu3a.png" alt="" class="sm:hidden px-5" />
+            </div>
+            <!-- card Branding end -->
+
+            <!-- card Shopify start -->
+            <div
+              class="w-full overflow-hidden pb-10 md:max-w-[460px] lg:max-w-[690px] h-full lg:max-h-[346px] bg-[#854CFF] rounded-[30px] sm:rounded-[24px] flex flex-col sm:flex-row max-md:gap-4"
+            >
+              <div
+                class="flex flex-col gap-[23px] pt-10 pl-4 md:pl-[14px] w-full lg:w-full lg:pl-[31px] text-white"
+              >
+                <div>
+                  <img src="/card4.svg" alt="" />
+                </div>
+                <div class="flex flex-col gap-4">
+                  <h2 class="font-medium text-[31px]">Shopify</h2>
+                  <p
+                    class="font-normal text-[16px] leading-7 w-auto md:w-[174px] lg:!w-[245px] shopify-p xl:!w-full"
+                  >
+                    help you to build website company that is modern, user
+                    friendly, good CEO, and Clean design
+                  </p>
+                  <div class="flex flex-row gap-2 underline underline-offset-4">
+                    <p>Start with us</p>
+                    <img src="/Vector.svg" alt="" class="text-white" />
+                  </div>
+                </div>
+              </div>
+              <img
+                src="/assets/Shopify logo.png"
+                alt=""
+                class="relative w-[375px] sm:w-[695px] lg:max-w-[455px] md:h-[260px] lg:h-[333px] top-[40px] md:top-[92px] lg:top-[12px] md:-left-6 xl:left-0 rounded-tr-[10px] m-auto sm:self-end"
+              />
+            </div>
+            <!-- card Shopify end -->
+          </div>
+          <!-- card baris 2 end -->
+        </div>
+        <!-- card invitaion end -->
+
+        <ul class="relative py-[10px] lg:py-[28px] overflow-hidden z-[3]">
+          <li
+            class="bg-[#1A1A1A] flex items-center justify-center h-[76px] lg:h-[140px] -rotate-2 w-full z-[-1] absolute"
+          ></li>
+          <li
+            class="bg-[#504CFF] flex items-center justify-center h-[76px] lg:h-[140px] rotate-2 w-full z-[1]"
+          >
+            <div id="slider-container">
+              <div id="slider">
+                <!-- Logo Asli -->
+                <img src="/mstore.svg" alt="Logo 1" class="h-[38px] lg:h-10" />
+                <img
+                  src="/mangcoding.svg"
+                  alt="Logo 2"
+                  class="h-[38px] lg:h-10"
+                />
+                <img src="/google.svg" alt="Logo 3" class="h-[38px] lg:h-10" />
+                <img src="/mstore.svg" alt="Logo 1" class="h-[38px] lg:h-10" />
+                <img src="/google.svg" alt="Logo 3" class="h-[38px] lg:h-10" />
+                <img
+                  src="/mangcoding.svg"
+                  alt="Logo 4"
+                  class="h-[38px] lg:h-10"
+                />
+                <img src="/google.svg" alt="Logo 5" class="h-[38px] lg:h-10" />
+
+                <!-- Duplikasi otomatis untuk seamless scrolling -->
+                <img src="/mstore.svg" alt="Logo 1" class="h-[38px] lg:h-10" />
+                <img
+                  src="/mangcoding.svg"
+                  alt="Logo 2"
+                  class="h-[38px] lg:h-10"
+                />
+                <img src="/google.svg" alt="Logo 3" class="h-[38px] lg:h-10" />
+                <img src="/mstore.svg" alt="Logo 1" class="h-[38px] lg:h-10" />
+                <img src="/google.svg" alt="Logo 3" class="h-[38px] lg:h-10" />
+                <img
+                  src="/mangcoding.svg"
+                  alt="Logo 4"
+                  class="h-[38px] lg:h-10"
+                />
+                <img src="/google.svg" alt="Logo 5" class="h-[38px] lg:h-10" />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- section invitation to collaborate end -->
+
+      <!-- line 2 start -->
+      <section class="relative all-line">
+        <img
+          class="absolute bottom-custom2 -z-50 top-[-256px] left-1/2 transform -translate-x-1/2 h-[521px] md:w-[96vw] lg:w-[96vw] max-w-[1281px] object-contain"
+          src="/vector-line2.svg"
+          alt=""
+        />
+      </section>
+      <!-- line 2 end -->
+
+      <!-- line 3 start -->
+      <section class="relative all-line">
+        <img
+          class="absolute bottom-custom3 -z-50 top-[820px] left-1/2 transform -translate-x-1/2 md:w-[96vw] lg:w-[96vw] max-w-[1281px] object-contain"
+          src="/vector-line3.svg"
+          alt=""
+        />
+      </section>
+      <!-- line 3 end -->
+
+      <!-- section portofolio & testimonial start -->
+      <section class="relative overflow-hidden" id="portofolio">
+        <div
+          class="absolute top-[283px] w-[641px] h-[287px] bg-[#854CFF99] blur-[200px] left-[-141px] z-[-1]"
+        ></div>
+        <div
+          class="absolute top-[850px] w-[641px] h-[287px] bg-[#504CFF99] blur-[200px] right-[-200px] z-[-1]"
+        ></div>
+        <div
+          class="absolute top-[1600px] lg:top-[1283px] w-[508px] h-[227px] lg:w-[641px] lg:h-[287px] bg-[#504CFF99] blur-[200px] left-[-182px] lg:left-[-290px] z-[-1]"
+        ></div>
+        <div
+          class="absolute top-[1800px] lg:top-[1504px] w-[806px] h-[361px] lg:w-[641px] lg:h-[287px] bg-[#854CFF99] blur-[200px] right-[-600px] lg:right-[-300px] z-[-1]"
+        ></div>
+        <div
+          class="absolute bottom-0 w-[641px] h-[287px] bg-[#854CFF99] blur-[200px] left-[-100px] z-[-1]"
+        ></div>
+        <div
+          class="container mx-auto pt-[70px] md:pt-[60px] lg:pt-[120px] xl:pt-[120px]"
+        >
+          <h2
+            class="text-[40px] md:text-[48px] lg:text-[68px] font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF] lg:w-[367px] pb-[25px] lg:pb-0"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            Our Product
+          </h2>
+
+          <div class="items-center md:flex md:justify-between">
+            <p
+              class="text-[20px] lg:text-base text-white font-normal lg:w-[486px] pb-5 lg:pb-0"
+              data-aos="fade-right"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+            >
+              help you to build website company that is modern, user friendly,
+              good CEO, and Clean design
+            </p>
+            <button class="btn-secondary md:flex-none">
+              All Portopolio
+              <figure
+                class="text-2xl group-hover:rotate-45 group-hover:translate-x-1 transition duration-100 ease-in-out"
+              >
+                <i class="bx bx-right-top-arrow-circle"></i>
+              </figure>
+            </button>
+          </div>
+        </div>
+
+        <ul
+          class="container mx-auto md:flex flex-col md:flex-row md:gap-[23px] justify-between pt-10 pb-[32px]"
+        >
+          <!-- card 1 -->
+          <li class="flex-1 group transition-all duration-300">
+            <div
+              class="relative flex justify-between bg-gradient-to-r from-[#E6DBFF] via-[#F6F6F6] to-[#D8D7FF] rounded-[24px]"
+            >
+              <div
+                class="ml-[15px] lg:ml-[24px] my-[15px] lg:my-[34px] lg:w-[244px]"
+              >
+                <p
+                  class="text-xs font-normal text-black border-[1px] border-[#504CFF] rounded-[32px] px-2 lg:px-[10px] py-[3px] w-[135px] items-center"
+                >
+                  Development Project
+                </p>
+                <p class="text-[20px] lg:text-[32px] font-medium lg:pt-[6px]">
+                  Mstore
+                </p>
+                <p class="text-xs lg:text-sm font-normal lg:w-[244px]">
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                </p>
+              </div>
+
+              <div class="pt-[24px]">
+                <img src="asset/card1.png" alt="" class="object-cover" />
+              </div>
+
+              <button
+                class="absolute border border-white bg-slate-200 p-[2px] lg:p-[8px] top-[16px] right-[2%] rounded-full w-6 h-6 lg:w-[42px] lg:h-[42px] group-hover:bg-[var(--primary-color)] transition-colors duration-300 delay-150"
+              >
+                <span
+                  class="relative flex items-center justify-center w-full h-full"
+                >
+                  <!-- Ikon pertama -->
+                  <img
+                    src="/arrow-up-right.svg"
+                    alt="arrow"
+                    class="arrow-icon transition-transform duration-300 absolute transform group-hover:translate-x-[150%] group-hover:-translate-y-[150%]"
+                  />
+                  <!-- Ikon kedua (copy) -->
+                  <img
+                    src="/arrow-up-right.svg"
+                    alt="arrow copy"
+                    class="arrow-icon-copy transition-all duration-300 delay-700 absolute transform group-hover:translate-x-0 group-hover:translate-y-0 group-hover:invert group-hover:brightness-200"
+                  />
+                </span>
+              </button>
+            </div>
+
+            <div class="py-5 lg:py-6">
+              <p
+                class="text-[26px] lg:text-[32px] font-medium text-white"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                Mstore
+              </p>
+              <p
+                class="text-sm text-white font-normal pt-2 lg:pt-3"
+                data-aos="fade-right"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                Mangcoding is a biggest company in Indonesia, who provides the
+                services in Development Website, Shopify and Wordpress
+              </p>
+            </div>
+
+            <div class="border border-[#635189]"></div>
+          </li>
+
+          <!-- card 2 -->
+          <li class="flex-1 pt-5 md:pt-0 transition-all duration-300 group">
+            <div
+              class="relative flex justify-between bg-gradient-to-r from-[#E6DBFF] via-[#F6F6F6] to-[#D8D7FF] rounded-[24px]"
+            >
+              <div
+                class="ml-[15px] lg:ml-[24px] my-[15px] lg:my-[34px] flex-grow"
+              >
+                <p
+                  class="text-xs font-normal text-black border-[1px] border-[#504CFF] rounded-[32px] px-2 lg:px-[10px] py-[3px] w-[135px]"
+                >
+                  Development Project
+                </p>
+                <p class="text-[20px] lg:text-[32px] font-medium lg:pt-[6px]">
+                  Beauty
+                </p>
+                <p class="text-xs lg:text-sm font-normal lg:w-[244px]">
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                </p>
+              </div>
+
+              <div class="pt-[24px]">
+                <img src="asset/card2.png" alt="" class="object-cover" />
+              </div>
+
+              <button
+                class="absolute border border-white bg-slate-200 p-[2px] lg:p-[8px] top-[16px] right-[2%] rounded-full w-6 h-6 lg:w-[42px] lg:h-[42px] group-hover:bg-[var(--primary-color)] transition-colors duration-300 delay-150"
+              >
+                <span
+                  class="relative flex items-center justify-center w-full h-full"
+                >
+                  <!-- Ikon pertama -->
+                  <img
+                    src="/arrow-up-right.svg"
+                    alt="arrow"
+                    class="arrow-icon transition-transform duration-300 absolute transform group-hover:translate-x-[150%] group-hover:-translate-y-[150%]"
+                  />
+                  <!-- Ikon kedua (copy) -->
+                  <img
+                    src="/arrow-up-right.svg"
+                    alt="arrow copy"
+                    class="arrow-icon-copy transition-all duration-300 delay-700 absolute transform group-hover:translate-x-0 group-hover:translate-y-0 group-hover:invert group-hover:brightness-200"
+                  />
+                </span>
+              </button>
+            </div>
+
+            <div class="py-5 lg:py-6">
+              <p
+                class="text-[26px] lg:text-[32px] font-medium text-white"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                Beauty
+              </p>
+              <p
+                class="text-sm text-white font-normal pt-2 lg:pt-3"
+                data-aos="fade-right"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                Mangcoding is a biggest company in Indonesia, who provides the
+                services in Development Website, Shopify and Wordpress
+              </p>
+            </div>
+
+            <div class="border border-[#635189]"></div>
+          </li>
+        </ul>
+        <ul
+          class="container mx-auto md:flex flex-col md:flex-row md:gap-[23px] justify-between"
+        >
+          <!-- card 3 -->
+          <li class="overflow-hidden transition-all duration-300 group">
+            <div
+              class="relative flex justify-between bg-gradient-to-r from-[#E6DBFF] via-[#F6F6F6] to-[#D8D7FF] rounded-[24px]"
+            >
+              <div
+                class="ml-[15px] lg:ml-[24px] my-[15px] lg:my-[34px] lg:w-[244px]"
+              >
+                <p
+                  class="text-xs font-normal text-black border-[1px] border-[#504CFF] rounded-[32px] px-2 lg:px-[10px] py-[3px] w-[135px] items-center"
+                >
+                  Development Project
+                </p>
+                <p class="text-[20px] lg:text-[32px] font-medium lg:pt-[6px]">
+                  Jual
+                </p>
+                <p
+                  class="text-xs lg:text-sm font-normal w-[170px] lg:w-[244px]"
+                >
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                </p>
+              </div>
+
+              <div class="pt-[24px]">
+                <img src="asset/card3.png" alt="" class="object-cover" />
+              </div>
+
+              <button
+                class="absolute border border-white bg-slate-200 p-[2px] lg:p-[8px] top-[16px] right-[2%] rounded-full w-6 h-6 lg:w-[42px] lg:h-[42px] group-hover:bg-[var(--primary-color)] transition-colors duration-300 delay-150"
+              >
+                <span
+                  class="relative flex items-center justify-center w-full h-full"
+                >
+                  <!-- Ikon pertama -->
+                  <img
+                    src="/arrow-up-right.svg"
+                    alt="arrow"
+                    class="arrow-icon transition-transform duration-300 absolute transform group-hover:translate-x-[150%] group-hover:-translate-y-[150%]"
+                  />
+                  <!-- Ikon kedua (copy) -->
+                  <img
+                    src="/arrow-up-right.svg"
+                    alt="arrow copy"
+                    class="arrow-icon-copy transition-all duration-300 delay-700 absolute transform group-hover:translate-x-0 group-hover:translate-y-0 group-hover:invert group-hover:brightness-200"
+                  />
+                </span>
+              </button>
+            </div>
+
+            <div class="py-5 lg:py-6">
+              <p
+                class="text-[26px] lg:text-[32px] font-medium text-white"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                Mangcoding
+              </p>
+              <p
+                class="text-sm text-white font-normal pt-2 lg:pt-3"
+                data-aos="fade-right"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                Mangcoding is a biggest company in Indonesia, who provides the
+                services in Development Website, Shopify and Wordpress
+              </p>
+            </div>
+            <div class="sm:hidden border border-[#635189] mt-4"></div>
+          </li>
+
+          <!-- card 4 -->
+          <li class="pt-5 md:pt-0 transition-all duration-300 group">
+            <div
+              class="relative flex justify-between bg-gradient-to-r from-[#E6DBFF] via-[#F6F6F6] to-[#D8D7FF] rounded-[24px]"
+            >
+              <div
+                class="ml-[15px] lg:ml-[24px] my-[15px] lg:my-[34px] lg:w-[244px]"
+              >
+                <p
+                  class="text-xs font-normal text-black border-[1px] border-[#504CFF] rounded-[32px] px-2 lg:px-[10px] py-[3px] w-[135px] items-center"
+                >
+                  Development Project
+                </p>
+                <p class="text-[20px] lg:text-[32px] font-medium lg:pt-[6px]">
+                  MangStore
+                </p>
+                <p
+                  class="text-xs lg:text-sm font-normal w-[170px] lg:w-[244px]"
+                >
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                </p>
+              </div>
+
+              <div class="pt-[24px]">
+                <img src="asset/card4.png" alt="" class="object-cover" />
+              </div>
+
+              <!-- Tombol dengan Efek Hover -->
+              <button
+                class="absolute border border-white bg-slate-200 p-[2px] lg:p-[8px] top-[16px] right-[2%] rounded-full w-6 h-6 lg:w-[42px] lg:h-[42px] group-hover:bg-[var(--primary-color)] transition-colors duration-300 delay-150"
+              >
+                <span
+                  class="relative flex items-center justify-center w-full h-full"
+                >
+                  <!-- Ikon pertama -->
+                  <img
+                    src="/arrow-up-right.svg"
+                    alt="arrow"
+                    class="arrow-icon transition-transform duration-300 absolute transform group-hover:translate-x-[150%] group-hover:-translate-y-[150%]"
+                  />
+                  <!-- Ikon kedua (copy) -->
+                  <img
+                    src="/arrow-up-right.svg"
+                    alt="arrow copy"
+                    class="arrow-icon-copy transition-all duration-300 delay-700 absolute transform group-hover:translate-x-0 group-hover:translate-y-0 group-hover:invert group-hover:brightness-200"
+                  />
+                </span>
+              </button>
+            </div>
+
+            <div class="py-5 lg:py-6">
+              <p
+                class="text-[26px] lg:text-[32px] font-medium text-white"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                MangStore
+              </p>
+              <p
+                class="text-sm text-white font-normal pt-2 lg:pt-3"
+                data-aos="fade-right"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                Mangcoding is a biggest company in Indonesia, who provides the
+                services in Development Website, Shopify and Wordpress
+              </p>
+            </div>
+            <div class="sm:hidden border border-[#635189]"></div>
+          </li>
+        </ul>
+
+        <div
+          id="testimoni"
+          class="container mx-auto pt-[75px] md:pt-[25px] lg:pt-[90px] pb-[29px] lg:pb-10"
+        >
+          <h2
+            class="text-[34px] md:text-[48px] lg:text-[68px] font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF] lg:w-[710px]"
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            What they say about us
+          </h2>
+          <p
+            class="text-[18px] lg:text-base text-white font-normal lg:w-[486px] pt-[25px] lg:pt-[32px]"
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+          >
+            Work in the IT field includes Web Design, UI/UX Design, Branding and
+            Shopify Development
+          </p>
+        </div>
+        <img
+          src="asset/“.png"
+          alt=""
+          class="absolute w-[343px] h-[244px] md:w-[450px] md:h-[320px] lg:w-[742px] lg:h-[529px] top-[1800px] md:top-[1100px] lg:top-[1226px] right-0 hidden md:block"
+        />
+        <img
+          src="asset/“ (2).png"
+          alt=""
+          class="absolute top-[1750px] right-0 md:hidden"
+        />
+        <!-- dekstop -->
+        <ul
+          class="hidden container mx-auto md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 gap-5 lg:gap-6 pb-[65px] lg:pb-[130px] pt-5"
+        >
+          <!-- Card 1 -->
+          <li class="review-card">
+            <figure>
+              <div class="profile">
+                <img src="/assets/profil1.jpg" alt="Profile of Nugraha" />
+                <div class="info">
+                  <p>Nugraha</p>
+                  <p>Founder of Mangcoding</p>
+                </div>
+              </div>
+              <img src="/“.svg" alt="" />
+            </figure>
+            <figcaption>
+              Mangcoding is the biggest company in Indonesia, which provides
+              services in website development, Shopify, and WordPress.
+            </figcaption>
+          </li>
+
+          <!-- Card 2 -->
+          <li class="review-card">
+            <figure>
+              <div class="profile">
+                <img src="/assets/profil2.jpg" alt="Profile of Alex Jounky" />
+                <div class="info">
+                  <p>Alex Jounky</p>
+                  <p>Founder of Robs</p>
+                </div>
+              </div>
+              <img src="/“.svg" alt="" />
+            </figure>
+            <figcaption>
+              Robs provides excellent services in web development, Shopify, and
+              WordPress, helping businesses grow digitally.
+            </figcaption>
+          </li>
+          <!-- Card 3 -->
+          <li class="review-card">
+            <figure>
+              <div class="profile">
+                <img src="/assets/profil3.jpg" alt="Profile of Chelsia Alexy" />
+                <div class="info">
+                  <p>Chelsia Alexy</p>
+                  <p>Founder of Frank</p>
+                </div>
+              </div>
+              <img src="/“.svg" alt="" />
+            </figure>
+            <figcaption>
+              Frank is a leading brand in UI/UX design, focusing on modern,
+              user-friendly interfaces.
+            </figcaption>
+          </li>
+          <!-- Card 4 -->
+          <li class="review-card">
+            <figure>
+              <div class="profile">
+                <img src="/assets/profil4.jpg" alt="Profile of Nugraha" />
+                <div class="info">
+                  <p>Samasul Afroy</p>
+                  <p>Full Stack Development</p>
+                </div>
+              </div>
+              <img src="/“.svg" alt="" />
+            </figure>
+            <figcaption>
+              Mangcoding is the biggest company in Indonesia, which provides
+              services in website development, Shopify, and WordPress.
+            </figcaption>
+          </li>
+
+          <!-- Card 5 -->
+          <li class="review-card">
+            <figure>
+              <div class="profile">
+                <img src="/assets/profil5.jpg" alt="Profile of Alex Jounky" />
+                <div class="info">
+                  <p>Purwa Adi Twingkiwingki</p>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+              <img src="/“.svg" alt="" />
+            </figure>
+            <figcaption>
+              Mangcoding is a biggest company in Indonesia, who provides the
+              services in Development Website, Shopify and Wordpress
+            </figcaption>
+          </li>
+
+          <!-- Card 6 -->
+          <li class="review-card">
+            <figure>
+              <div class="profile">
+                <img src="/assets/profil6.jpg" alt="Profile of Chelsia Alexy" />
+                <div class="info">
+                  <p>Rizwan Gusnajmi</p>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+              <img src="/“.svg" alt="" />
+            </figure>
+            <figcaption>
+              Mangcoding is a biggest company in Indonesia, who provides the
+              services in Development Website, Shopify and Wordpress
+            </figcaption>
+          </li>
+        </ul>
+
+        <!-- mobile -->
+        <div class="container mx-auto md:hidden pb-[140px]">
+          <div class="swiper pb-[28px]">
+            <div class="swiper-wrapper">
+              <!-- Card 1 -->
+              <div class="swiper-slide review-card">
+                <figure>
+                  <div class="profile">
+                    <img src="/assets/profil1.jpg" alt="" />
+                    <div class="info">
+                      <p>Nugraha</p>
+                      <p>Founder of Mangcoding</p>
+                    </div>
+                  </div>
+                  <img src="/“.svg" alt="" class="w-[46px] h-[33px]" />
+                </figure>
+                <figcaption>
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                  services in Development Website, Shopify and Wordpress
+                </figcaption>
+              </div>
+
+              <!-- card 2 -->
+              <div class="swiper-slide review-card">
+                <figure>
+                  <div class="profile">
+                    <img src="/assets/profil2.jpg" alt="" />
+                    <div class="info">
+                      <p>Alex Jounky</p>
+                      <p>Founder of Robs</p>
+                    </div>
+                  </div>
+                  <img src="/“.svg" alt="" class="w-[46px] h-[33px]" />
+                </figure>
+                <figcaption>
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                  services in Development Website, Shopify and Wordpress
+                </figcaption>
+              </div>
+
+              <!-- card 3 -->
+              <div class="swiper-slide review-card">
+                <figure>
+                  <div class="profile">
+                    <img src="/assets/profil3.jpg" alt="" />
+                    <div class="info">
+                      <p>Chelsia Alexy</p>
+                      <p>Founder of Frank</p>
+                    </div>
+                  </div>
+                  <img src="/“.svg" alt="" class="w-[46px] h-[33px]" />
+                </figure>
+                <figcaption>
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                  services in Development Website, Shopify and Wordpress
+                </figcaption>
+              </div>
+
+              <!-- card 4 -->
+              <div class="swiper-slide review-card">
+                <figure>
+                  <div class="profile">
+                    <img src="/assets/profil4.jpg" alt="" />
+                    <div class="info">
+                      <p>Samsul Afroy</p>
+                      <p>Full Stack Development</p>
+                    </div>
+                  </div>
+                  <img src="/“.svg" alt="" class="w-[46px] h-[33px]" />
+                </figure>
+                <figcaption>
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                  services in Development Website, Shopify and Wordpress
+                </figcaption>
+              </div>
+
+              <!-- card 5 -->
+              <div class="swiper-slide review-card">
+                <figure>
+                  <div class="profile">
+                    <img src="/assets/profil2.jpg" alt="" />
+                    <div class="info">
+                      <p>Purwa Adi Twingkiwingki</p>
+                      <p>UI/UX Designer</p>
+                    </div>
+                  </div>
+                  <img src="/“.svg" alt="" class="w-[46px] h-[33px]" />
+                </figure>
+                <figcaption>
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                  services in Development Website, Shopify and Wordpress
+                </figcaption>
+              </div>
+
+              <div class="swiper-slide review-card">
+                <figure>
+                  <div class="profile">
+                    <img src="/assets/profil3.jpg" alt="" />
+                    <div class="info">
+                      <p>Rizwan Gusnajmi</p>
+                      <p>Web Developer</p>
+                    </div>
+                  </div>
+                  <img src="/“.svg" alt="" class="w-[46px] h-[33px]" />
+                </figure>
+                <figcaption>
+                  Mangcoding is a biggest company in Indonesia, who provides the
+                  services in Development Website, Shopify and Wordpress
+                </figcaption>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <div class="border border-[#635189]"></div>
+        <div class="bg-[#1A1A1A66] backdrop-blur-[40%]">
+          <div
+            class="container mx-auto flex flex-col md:flex-row md:justify-between items-start md:items-center pt-[50px] pb-[33px] lg:py-10"
+          >
+            <div class="lg:w-[588px]" id="connect">
+              <h2
+                class="text-[40px] md:text-[48px] lg:text-[68px] font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF] lg:w-[710px]"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                Let’s work with Us
+              </h2>
+              <p
+                class="text-[17px] lg:text-base text-white font-normal py-[30px] lg:py-6"
+                data-aos="fade-right"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                Mangcoding is a biggest company in Indonesia, who provides the
+                services in Development Website, Shopify and Wordpress
+              </p>
+            </div>
+            <button class="btn-secondary3 flex-none" onClick="toggleModal()">
+              Know More
+              <figure class="text-2xl">
+                <i class="bx bx-right-top-arrow-circle"></i>
+              </figure>
+            </button>
+            <!-- Modal Background -->
+          </div>
+        </div>
+        <div class="border border-[#635189]"></div>
+      </section>
+      <!-- section portofolio & testimonial end -->
+
+      <!-- modal contact start -->
+      <section class="hidden z-[999999] fixed" id="modalOverlay">
+        <div
+          class="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm justify-center flex items-center m-auto left-0 right-0 w-full h-screen px-6"
+        >
+          <!-- Modal Box -->
+          <div
+            class="fixed z-[99999999] bg-[var(--primary-color)] p-6 rounded-lg w-full max-w-[290px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[540px] shadow-xl animate__animated animate__slideInDown animate__faster"
+          >
+            <div class="flex justify-between items-center mb-4">
+              <h2 class="text-xl font-bold text-white">
+                Contact <span class="text-white">Me!</span>
+              </h2>
+              <button onclick="toggleModal()">
+                <i
+                  class="fa-solid fa-xmark text-white text-2xl hover:text-black transition-colors duration-300"
+                ></i>
+              </button>
+            </div>
+
+            <!-- Form -->
+            <form class="space-y-4 md:space-y-6 text-[16px]">
+              <input
+                type="text"
+                placeholder="Full Name"
+                class="w-full p-2 md:p-3 border border-none text-white rounded bg-black"
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="w-full p-2 md:p-3 border border-none text-white rounded bg-black"
+              />
+              <input
+                type="text"
+                placeholder="Phone Number"
+                class="w-full p-2 md:p-3 border border-none text-white rounded bg-black"
+              />
+              <input
+                type="text"
+                placeholder="Email Subject"
+                class="w-full p-2 md:p-3 border border-none text-white rounded bg-black"
+              />
+              <textarea
+                placeholder="Your Message"
+                class="w-full p-2 md:p-3 border border-none text-white rounded bg-black h-28 resize-none"
+              ></textarea>
+              <button class="btn-secondary m-auto">
+                Send Message!
+                <figure
+                  class="text-2xl group-hover:rotate-45 group-hover:translate-x-1 transition duration-100 ease-in-out"
+                >
+                  <i class="bx bx-right-top-arrow-circle"></i>
+                </figure>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- modal contact end -->
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <footer
+      class="relative bg-gradient-to-b from-[#1A1A2E] to-black text-white overflow-hidden"
+    >
+      <!-- Background Elements -->
+      <div
+        class="absolute top-0 left-[-150px] w-[641px] h-[287px] bg-[#854CFF] blur-[200px] z-[-1]"
+      ></div>
+      <div
+        class="absolute top-0 right-[-150px] w-[641px] h-[287px] bg-[#504CFF] blur-[200px] z-[-1]"
+      ></div>
+      <div>
+        <div
+          class="container mx-auto flex flex-col lg:flex-row justify-between items-start py-10 md:py-16 lg:py-20 gap-10"
+        >
+          <!-- Left Section -->
+          <div class="w-full lg:w-[383px]">
+            <a
+              href="/"
+              class="flex gap-2 items-center justify-center lg:justify-start w-fit"
+            >
+              <img src="/logo.svg" alt="Logo" class="w-[55px] lg:w-[44px]" />
+              <h3 class="text-[28px] lg:text-[23px] text-white font-bold">
+                Bantu
+              </h3>
+            </a>
+            <p
+              class="text-[17px] lg:text-base text-center lg:text-start font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF] pt-6"
+              data-aos="fade-right"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+              data-aos-offset="10"
+            >
+              Companies that can help you in developing your company for the
+              future
+            </p>
+          </div>
+          <!-- Middle Sections -->
+          <div
+            class="flex flex-col md:flex-row gap-[42px] md:gap-20 lg:gap-[151px]"
+          >
+            <div>
+              <h3
+                class="text-[22px] lg:text-lg text-white font-medium"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                data-aos-offset="10"
+              >
+                Services
+              </h3>
+              <p
+                class="text-[20px] lg:text-[16px] leading-[24px] text-white/85 font-light pt-[30px] lg:pt-4"
+                data-aos="fade-right"
+                data-aos-delay="450"
+                data-aos-duration="1000"
+                data-aos-offset="10"
+              >
+                Web Development
+              </p>
+              <p
+                class="text-[20px] lg:text-[16px] leading-5 text-white/85 font-light pt-[20px] lg:pt-4"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+                data-aos-offset="10"
+              >
+                UI/UX Designer
+              </p>
+              <p
+                class="text-[20px] lg:text-[16px] leading-5 text-white/85 font-light pt-[20px] lg:pt-4"
+                data-aos="fade-right"
+                data-aos-delay="550"
+                data-aos-duration="1000"
+                data-aos-offset="10"
+              >
+                Branding
+              </p>
+              <p
+                class="text-[20px] lg:text-[16px] leading-5 text-white/85 font-light pt-[20px] lg:pt-4"
+                data-aos="fade-right"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+                data-aos-offset="10"
+              >
+                Shopify
+              </p>
+            </div>
+            <div>
+              <h3
+                class="text-[22px] lg:text-lg text-white font-medium"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+              >
+                Business Features
+              </h3>
+              <p
+                class="text-[20px] lg:text-[16px] leading-5 text-white/85 font-light pt-[30px] lg:pt-4"
+                data-aos="fade-right"
+                data-aos-delay="450"
+                data-aos-duration="1000"
+              >
+                Data-Based Chatbot Training
+              </p>
+              <p
+                class="text-[20px] lg:text-[16px] leading-5 text-white/85 font-light pt-[20px] lg:pt-4"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+              >
+                Model Fine-Tuning
+              </p>
+              <p
+                class="text-[20px] lg:text-[16px] leading-5 text-white/85 font-light pt-[20px] lg:pt-4"
+                data-aos="fade-right"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+                data-aos-offset="100"
+              >
+                Sales & Customer Service Smart Agents
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div
+          class="container mx-auto flex flex-col md:flex-row justify-between items-center gap-[15px] lg:gap-6 pb-6"
+        >
+          <!-- Bagian logo: Ubah ke urutan pertama di mobile -->
+          <div class="flex gap-4 items-center order-3 md:order-3">
+            <a href="/">
+              <img
+                src="/instagram2.svg"
+                alt="Instagram"
+                class="w-[24px] h-[24px] md:w-[22px] md:h-[22px] lg:w-[24px] lg:h-[24px]"
+              />
+            </a>
+            <a href="/">
+              <img
+                src="/wa.svg"
+                alt="WhatsApp"
+                class="w-[24px] h-[24px] md:w-[22px] md:h-[22px] lg:w-[24px] lg:h-[24px]"
+              />
+            </a>
+            <a href="/">
+              <img
+                src="/linkedin.svg"
+                alt="LinkedIn"
+                class="w-[24px] h-[24px] md:w-[22px] md:h-[22px] lg:w-[24px] lg:h-[24px]"
+              />
+            </a>
+            <a href="/">
+              <img
+                src="/twiter.svg"
+                alt="Twitter"
+                class="w-[24px] h-[24px] md:w-[22px] md:h-[22px] lg:w-[24px] lg:h-[24px]"
+              />
+            </a>
+          </div>
+
+          <!-- Teks copyright: Ubah ke urutan ketiga di mobile -->
+          <p
+            class="text-sm md:text-xs lg:text-sm text-white font-normal order-2 md:order-none"
+          >
+            © 2023 Mangcoding. All rights reserved.
+          </p>
+
+          <!-- Bagian kebijakan: Tetap di urutan kedua -->
+          <div
+            class="text-[18px] sm:text-[16px] leading-5 text-white font-normal flex gap-[30px] md:gap-6 order-1 md:order-none text-center"
+          >
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Cookie Policy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="src/js/script.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <script>
+      function toggleModal() {
+        document.getElementById("modalOverlay").classList.toggle("hidden");
+      }
+
+      const header = document.getElementById("header");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          header.classList.remove("bg-transparent");
+          header.classList.add("bg-colored");
+        } else {
+          header.classList.remove("bg-colored");
+          header.classList.add("bg-transparent");
+        }
+      });
+
+      const slider = document.getElementById("slider");
+      const clone = slider.innerHTML;
+      slider.innerHTML += clone;
+
+      const text = document.querySelector(".text p");
+      text.innerHTML = text.innerText
+        .split("")
+        .map(
+          (char, i) =>
+            `<span style="transform:rotate(${i * 12}deg)">${char}</span>`
+        )
+        .join("");
+
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          bulletClass: "swiper-pagination-bullet",
+          bulletActiveClass: "swiper-pagination-bullet-active",
+        },
+      });
+    </script>
+  </body>
+</html>

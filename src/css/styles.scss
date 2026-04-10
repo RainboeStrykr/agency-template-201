@@ -1,0 +1,273 @@
+// mixin syle start
+@mixin button-style($bg-color, $border, $text-color, $position: static) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: $border;
+  color: $text-color;
+  background-color: $bg-color;
+  border-radius: 40px;
+  padding: 14px 16px;
+  position: $position;
+  transition: all 0.5s ease-in-out;
+
+  @media (min-width: 1024px) {
+    width: auto;
+    top: 24px;
+    right: 8%;
+  }
+
+  @media (min-width: 768px) {
+    padding: 14px 16px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 14px 24px;
+  }
+}
+
+@mixin button-hover-effect($letter-spacing) {
+  &:hover {
+    letter-spacing: $letter-spacing;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+
+    figure {
+      transform: rotate(45deg) translateX(6px);
+      transition: transform 300ms ease-in-out;
+    }
+  }
+
+  &:active {
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 80ms;
+  }
+}
+
+@mixin button-effect-hover-secondary{
+  &:hover {
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+
+    figure {
+      transform: rotate(45deg);
+      transition: transform 300ms ease-in-out;
+    }
+  }
+
+  &:active {
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(4px);
+    transition: 80ms;
+  }
+}
+
+// Apply ke semua button
+.btn-secondary {
+  @include button-style(white, none, black);
+  @include button-hover-effect(2px);
+}
+
+.btn-primary {
+  @include button-style(transparent, 1.5px solid #504cff, white);
+  @include button-effect-hover-secondary;
+}
+
+.btn-secondary3 {
+  @include button-style(white, none, black);
+  @include button-hover-effect(2px);
+
+  @media (min-width: 1024px) {
+    padding: 14px 62px;
+  }
+
+  @media (max-width: 472px) {
+    width: 100%;
+    display: flex;
+    max-width: 410px;
+  }
+}
+
+.btn-secondary2 {
+  @include button-style(white, none white, black, absolute);
+  @include button-hover-effect(2px);
+
+  @media (min-width: 1025px) {
+    padding: 14px 62px;
+  }
+
+  @media (min-width: 1441px) {
+    right: 0;
+  }
+
+  @media (min-width: 1391px) and (max-width: 1440px) {
+    right: 50px;
+  }
+
+  @media (min-width: 1321px) and (max-width: 1390px) {
+    right: 30px;
+  }
+
+  @media (max-width: 1320px) {
+    top: 130px;
+    right: 50px;
+  }
+
+  @media (max-width: 1110px) {
+    top: 230px;
+    right: 50px;
+  }
+
+  @media (max-width: 767px) {
+    bottom: unset;
+    top: 180px;
+    right: unset;
+  }
+
+  @media (max-width: 685px) {
+    top: 200px;
+  }
+
+  @media (max-width: 611px) {
+    top: 260px;
+    right: unset;
+  }
+
+  @media (max-width: 472px) {
+    width: 100%;
+    display: flex;
+    max-width: 410px;
+    top: 260px;
+  }
+
+  @media (max-width: 384px) {
+    top: 300px;
+  }
+
+  @media (max-width: 383px) {
+    top: 360px;
+  }
+
+  @media (max-width: 265px) {
+    top: 380px;
+  }
+
+  @media (max-width: 254px) {
+    top: 440px;
+  }
+}
+// button style & effect start
+
+// card testimonial start
+// card testimonial start
+$bg-card: rgba(21, 21, 21, 0.4);
+$border-gradient: linear-gradient(129.17deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 28.69%);
+
+// Mixin untuk card
+@mixin card-style {
+  background: $bg-card;
+  backdrop-filter: blur(30px);
+  padding: 20px;
+  border-radius: 24px;
+  position: relative;
+  
+  // Border gradient di luar card
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: 1.5px; 
+    background: $border-gradient;
+    -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+    mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
+// Mixin untuk profile info
+@mixin profile-info {
+  display: flex;
+  gap: 12px;
+
+  img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .info {
+    p {
+      color: white;
+      font-size: 16px;
+      font-weight: normal;
+
+      &:nth-child(2) {
+        font-size: 12px;
+        padding-top: 4px;
+      }
+    }
+  }
+}
+
+// Style untuk card
+.review-card {
+  @include card-style;
+
+  figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .profile {
+    @include profile-info;
+  }
+
+  figcaption {
+    color: white;
+    font-size: 16px;
+    padding-top: 24px;
+  }
+}
+
+
+// Our product hover start
+button {
+  position: relative;
+  overflow: hidden;
+
+  .arrow-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .arrow-icon-copy {
+    transition: transform 0.3s ease-in-out 0.1s;
+    transform: translateX(-150%) translateY(150%);
+  }
+
+  &:hover {
+    .arrow-icon {
+      transform: translateX(150%) translateY(-150%);
+    }
+
+    .arrow-icon-copy {
+      transform: translateX(0) translateY(0);
+    }
+  }
+}
+// Our product hover end

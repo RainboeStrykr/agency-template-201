@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .aboutPage h1 {
+    @apply lg:text-[64px] text-[32px] max-md:text-2xl bg-clip-text text-transparent  bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF];
+  }
+  h2 {
+    @apply lg:text-[48px] text-[32px] leading-[100%] bg-clip-text text-transparent bg-gradient-to-r from-[#9795FF] via-white to-[#9795FF];
+  }
+
+  h3 {
+    @apply md:text-[24px];
+  }
+  p {
+    @apply text-base text-[#B3B3B3];
+  }
+}
+
+@layer components {
+  .button-tag {
+    @apply border-2 border-[#353435] rounded-full px-[16px] py-[10px] text-white text-[14px];
+  }
+}
+
+.team-member-button {
+  @apply w-[65px] h-[78px] filter brightness-75 md:mt-[13px];
+}
+
+.team-member-button.odd {
+  @apply -rotate-[12deg];
+}
+
+.team-member-button.even {
+  @apply rotate-[12deg];
+}
+
+.team-member-button.active {
+  @apply filter brightness-100 rotate-[0rad];
+}
+
+.member-detail .sub-head.mobile {
+  @apply px-[16px] py-[10px] border-2 rounded-full border-[#353435];
+}
+
+@media (max-width: 750px) {
+  .member-detail .sub-head.mobile {
+    @apply px-[16px] py-[10px] border-2 rounded-full border-[#353435];
+  }
+}
