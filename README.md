@@ -2,6 +2,8 @@
 
 A modern, responsive agency website for **Bantu** — a digital agency offering Web Development, UI/UX Design, Branding, and Shopify services.
 
+![screenshot](/public/screenshot.png)
+
 ## Pages
 
 - **Home** (`index.html`) — Hero section, services overview, portfolio showcase, client logos, and testimonials
